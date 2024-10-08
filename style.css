@@ -98,7 +98,7 @@ nav {
 
 .nav_link {
     text-decoration: none;
-    color: var(--text-color);
+    color: rgb(110, 87, 224);
     font-weight: 500;
     padding-inline: 15px;
     margin-inline: 20px;
@@ -117,7 +117,7 @@ nav {
 
 .active-link {
     position: relative;
-    color: var(--first-color);
+    color: rgb(110, 87, 224);
     transition: 0.3s;
 }
 
@@ -765,10 +765,12 @@ footer {
 @media only screen and (max-width: 900px) {
     .nav-menu-btn {
         display: none;
+
     }
 
     .nav-menu.responsive {
         left: 0;
+
     }
 
     .nav-menu {
@@ -921,41 +923,14 @@ footer {
         text-align: center;
     }
 
-    .nav-menu-btn {
-        font-size: 18px;
-    }
-}
 
-@media only screen and (max-width: 390px) {
-    .mode {
-        margin-right: 20px;
-    }
-
-}
-
-@media only screen and (max-width: 414px) {
-    .mode {
-        margin-right: 20px;
-    }
-
-}
-
-@media only screen and (max-width: 430px) {
-    .mode {
-        margin-right: 20px;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    nav {
-        margin-right: 200px;
-    }
 }
 
 @media only screen and (max-width: 344px) {
     .small {
         display: flex;
         justify-content: center;
+
     }
 
     .moon-sun {
@@ -967,5 +942,8 @@ footer {
         width: 35px;
         border-radius: 30px;
         cursor: pointer;
+
+
     }
+
 }
