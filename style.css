@@ -765,12 +765,10 @@ footer {
 @media only screen and (max-width: 900px) {
     .nav-menu-btn {
         display: none;
-
     }
 
     .nav-menu.responsive {
         left: 0;
-
     }
 
     .nav-menu {
@@ -782,7 +780,7 @@ footer {
         align-items: center;
         background: white;
         backdrop-filter: blur(5px);
-        width: 260px;
+        width: 250px;
         border-radius: 0px 30px 0px 30px;
         min-height: 450px;
         height: 90vh;
