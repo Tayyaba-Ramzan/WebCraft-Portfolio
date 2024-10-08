@@ -782,7 +782,7 @@ footer {
         align-items: center;
         background: white;
         backdrop-filter: blur(5px);
-        width: 300px;
+        width: 280px;
         border-radius: 0px 30px 0px 30px;
         min-height: 450px;
         height: 90vh;
@@ -926,11 +926,6 @@ footer {
     .nav-menu-btn {
         font-size: 18px;
     }
-
-
-
-
-
 }
 
 @media only screen and (max-width: 390px) {
@@ -940,14 +935,12 @@ footer {
 
 }
 
-
 @media only screen and (max-width: 414px) {
     .mode {
         margin-right: 20px;
     }
 
 }
-
 
 @media only screen and (max-width: 430px) {
     .mode {
@@ -959,18 +952,12 @@ footer {
     nav {
         margin-right: 200px;
     }
-
-
-
 }
-
-
 
 @media only screen and (max-width: 344px) {
     .small {
         display: flex;
         justify-content: center;
-
     }
 
     .moon-sun {
@@ -982,8 +969,5 @@ footer {
         width: 35px;
         border-radius: 30px;
         cursor: pointer;
-
-
     }
-
 }
